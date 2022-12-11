@@ -3,7 +3,7 @@ function wrapping(gifts) {
       var topBottomWrapping = '*'.repeat(gift.length+2)
       return [topBottomWrapping, `*${gift}*`,topBottomWrapping].join('\n')
     })
-  }
+}
   
 
 export const runChallenge01 = () => {
