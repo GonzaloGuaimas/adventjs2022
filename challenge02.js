@@ -7,7 +7,7 @@ function countHours(year, holidays) {
       }
       return sum; 
     }, 0)
-  }
+}
 export const runChallenge02 = () => {
     const year = 2022
     const holidays = ['01/06', '04/01', '12/25']
